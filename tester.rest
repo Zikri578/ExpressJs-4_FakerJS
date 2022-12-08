@@ -1,0 +1,14 @@
+### membuat create user
+POST http://localhost:9000/api/users/create
+Content-Type: application/json
+
+# membuat data secara manual untuk tester, dan harus diubah apabila ada yang unique
+{
+    "username": "etyertye",
+    "email" : "etyertye@gmail.com",
+    "password": "wrrsfar32753u537sdgs"
+}
+
+### membuat read user
+GET http://localhost:9000/api/users/read
+Content-Type: application/json
